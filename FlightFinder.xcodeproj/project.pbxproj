@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B880EC911BB5865C0032E7D1 /* FlightFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B880EC901BB5865C0032E7D1 /* FlightFinder.cpp */; settings = {ASSET_TAGS = (); }; };
 		B8E56E8B1BB4D37F00CEB46B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E56E8A1BB4D37F00CEB46B /* main.cpp */; };
+		B8E56E941BB4D75300CEB46B /* Flight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E56E931BB4D75300CEB46B /* Flight.cpp */; settings = {ASSET_TAGS = (); }; };
+		B8E56E971BB4DFBD00CEB46B /* BitMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E56E951BB4DFBD00CEB46B /* BitMatrix.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B880EC901BB5865C0032E7D1 /* FlightFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlightFinder.cpp; sourceTree = "<group>"; };
 		B8E56E871BB4D37F00CEB46B /* FlightFinder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlightFinder; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E56E8A1BB4D37F00CEB46B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B8E56E911BB4D3B500CEB46B /* FlightFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightFinder.h; sourceTree = "<group>"; };
+		B8E56E921BB4D55C00CEB46B /* Flight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flight.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		B8E56E931BB4D75300CEB46B /* Flight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flight.cpp; sourceTree = "<group>"; };
+		B8E56E951BB4DFBD00CEB46B /* BitMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitMatrix.cpp; sourceTree = "<group>"; };
+		B8E56E961BB4DFBD00CEB46B /* BitMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BitMatrix.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B8E56E8A1BB4D37F00CEB46B /* main.cpp */,
+				B8E56E911BB4D3B500CEB46B /* FlightFinder.h */,
+				B8E56E921BB4D55C00CEB46B /* Flight.h */,
+				B8E56E931BB4D75300CEB46B /* Flight.cpp */,
+				B8E56E951BB4DFBD00CEB46B /* BitMatrix.cpp */,
+				B8E56E961BB4DFBD00CEB46B /* BitMatrix.hpp */,
+				B880EC901BB5865C0032E7D1 /* FlightFinder.cpp */,
 			);
 			path = FlightFinder;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E56E8B1BB4D37F00CEB46B /* main.cpp in Sources */,
+				B8E56E941BB4D75300CEB46B /* Flight.cpp in Sources */,
+				B8E56E971BB4DFBD00CEB46B /* BitMatrix.cpp in Sources */,
+				B880EC911BB5865C0032E7D1 /* FlightFinder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,7 @@
 				B8E56E901BB4D37F00CEB46B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
